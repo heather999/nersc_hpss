@@ -1,0 +1,23 @@
+#!/bin/bash -l
+#SBATCH -M escori
+#SBATCH -q xfer
+#SBATCH -t 10:00:00
+#SBATCH -J dc2_uk-2
+#SBATCH -L projecta,SCRATCH
+#SBATCH --mem=10GB
+
+cd /global/projecta/projectdirs/lsst/production/DC2_ImSim_UKTest/DC2output
+
+htar -Hcrc -cvf /home/projects/desc/DC2_ImSim/DC2_ImSim_UKTest/WFD-r-000000to000100.tar -L /global/cscratch1/sd/desc/HPSS/uktest/r-1.txt
+
+htar -Hcrc -cvf /home/projects/desc/DC2_ImSim/DC2_ImSim_UKTest/WFD-r-000101to000244.tar -L /global/cscratch1/sd/desc/HPSS/uktest/r-2.txt
+
+htar -Hcrc -cvf /home/projects/desc/DC2_ImSim/DC2_ImSim_UKTest/WFD-y-000000to000127.tar -L /global/cscratch1/sd/desc/HPSS/uktest/y-1.txt
+
+htar -Hcrc -cvf /home/projects/desc/DC2_ImSim/DC2_ImSim_UKTest/WFD-y-000128to000251.tar -L /global/cscratch1/sd/desc/HPSS/uktest/y-2.txt
+
+htar -Hcrc -cvf /home/projects/desc/DC2_ImSim/DC2_ImSim_UKTest/WFD-z-000000to000109.tar -L /global/cscratch1/sd/desc/HPSS/uktest/z-1.txt
+
+htar -Hcrc -cvf /home/projects/desc/DC2_ImSim/DC2_ImSim_UKTest/WFD-z-000110to000246.tar -L /global/cscratch1/sd/desc/HPSS/uktest/z-2.txt
+
+
