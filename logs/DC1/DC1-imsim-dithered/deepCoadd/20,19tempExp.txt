@@ -1,0 +1,2 @@
+DC1-imsim-dithered/deepCoadd/r/0/20,19.fits
+DC1-imsim-dithered/deepCoadd/r/0/20,19tempExp
