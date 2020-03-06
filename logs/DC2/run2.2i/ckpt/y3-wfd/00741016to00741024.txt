@@ -1,0 +1,9 @@
+Run2.2i/sim/y3-wfd/00741016/agn_ckpts
+Run2.2i/sim/y3-wfd/00741017/agn_ckpts
+Run2.2i/sim/y3-wfd/00741018/agn_ckpts
+Run2.2i/sim/y3-wfd/00741019/agn_ckpts
+Run2.2i/sim/y3-wfd/00741020/agn_ckpts
+Run2.2i/sim/y3-wfd/00741021/agn_ckpts
+Run2.2i/sim/y3-wfd/00741022/agn_ckpts
+Run2.2i/sim/y3-wfd/00741023/agn_ckpts
+Run2.2i/sim/y3-wfd/00741024/agn_ckpts
